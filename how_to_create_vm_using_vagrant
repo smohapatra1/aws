@@ -1,0 +1,15 @@
+https://www.taniarascia.com/what-are-vagrant-and-virtualbox-and-how-do-i-use-them/
+https://sourabhbajaj.com/mac-setup/Vagrant/README.html
+
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install vagrant-manager
+vagrant init [ will create a default file 
+vagrant box add ubuntu/trusty64
+vagrant init [ will create a default file] 
+#Open Vgrantfile and edit this section ] 
+#config.vm.box = "ubuntu/trusty64" - Similarly different versions can be used
+vagrant init ubuntu/trusty64 
+vagrant up
+vagrant halt - To shutdown
+
