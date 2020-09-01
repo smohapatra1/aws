@@ -1,0 +1,18 @@
+# Option 1:-
+#************************
+curl -O https://bootstrap.pypa.io/get-pip.py
+python3 get-pip.py --user
+pip3 install awscli --upgrade --user
+aws --version
+
+#option 2:- Installing on macos
+#***********************
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-cmd
+
+* Create a xml file e.g cli.xml
+* Download the fle - curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+* installer -pkg AWSCLIV2.pkg \
+            -target <Change the path where you want to install> \
+            -applyChoiceChangesXML cli.xml
+* Installation must be complete 
+* which aws - should print the link
