@@ -1,0 +1,12 @@
+#https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
+* Make sure you have access-ID and keys and region - You can follow the above steps to get it 
+* Execute aws configure 
+	* Add the Access ID
+	* Add the keys
+	* Add the region
+	* Add the output format
+* You can also set the profile by executing - aws configure --profile <User you created>
+* The above command must return all the detail
+* The above steps will add the files such as ~.aws/credentials and .aws/config
+* To verify this is working try - aws configure get region
+

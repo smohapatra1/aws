@@ -16,3 +16,11 @@ https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html#cliv2-ma
             -applyChoiceChangesXML cli.xml
 * Installation must be complete 
 * which aws - should print the link
+
+# Uninstall AWS cli 
+#**********************
+which aws 
+ls -l /usr/local/bin/aws # Run to check where its installed 
+sudo rm -rf /usr/local/bin/aws
+sudo rm /usr/local/bin/aws_completer
+sudo rm -rf /usr/local/aws-cli
