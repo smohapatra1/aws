@@ -8,5 +8,5 @@
 * You can also set the profile by executing - aws configure --profile <User you created>
 * The above command must return all the detail
 * The above steps will add the files such as ~.aws/credentials and .aws/config
-* To verify this is working try - aws configure get region
+* To verify this is working try - "aws configure get region" OR "aws iam get-user"
 
