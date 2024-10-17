@@ -12,4 +12,5 @@ vagrant init [ will create a default file]
 vagrant init ubuntu/trusty64 
 #vagrant up
 #vagrant halt - To shutdown
+#vagrant relaod - To reboot the box
 
