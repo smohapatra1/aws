@@ -12,5 +12,8 @@ vagrant init [ will create a default file]
 vagrant init ubuntu/trusty64 
 #vagrant up
 #vagrant halt - To shutdown
-#vagrant relaod - To reboot the box
+#vagrant relaod - To reboot the VM
+#vagrant destory - To Destroy the VM
+#vagrant list box # List all the vagrant boxes 
+#vagrant global-status # To see the all vms status
 
